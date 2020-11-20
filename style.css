@@ -8,21 +8,25 @@ body{
 }
 .start{
     height: 37vh;
-    background-color: rgb(32, 28, 28);
+    /* background-color: rgb(32, 28, 28); */
+    background: linear-gradient(30deg, rgb(32, 28, 28), rgb(146, 141, 141));
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
 .start h1{
-    color: red;
+    color: rgba(23, 23, 109, 0.856);
     height: 9vh;
      text-align: center;
+}
+.name{
+    color: linear-gradient(30deg, rgb(46, 46, 122), rgb(33, 77, 78));
 }
 form{
     text-align: center;
 }
 button{
-    width: 40vw;
+    width: 44vw;
     align-self: center;
     margin: 20px 0  10px 0;
     height: 6vh;
@@ -43,9 +47,11 @@ button:hover{
     color: blue;
 } 
 .bg{
-    background: url(./img/Dell-G5-2020-main.jpg) no-repeat;
+    background-image:  url(./img/Dell-G5-2020-main.jpg) ,linear-gradient(#cf8a8a77, rgb(122, 104, 68));
+    background-repeat: no-repeat;
     height: 90vh;
     background-size: cover;
+    max-height: 90%;
 }
 .about{
     height: 45vh;
@@ -54,7 +60,7 @@ button:hover{
     justify-content: space-evenly;  
 }
 .about h2{
-    color:saddlebrown;
+    color:rgb(139, 69, 19);
     text-align: center;
     font-size: 27px;
 }
@@ -129,7 +135,7 @@ button:hover{
 }
 .projects{
     text-align: center;
-    background-color: rgb(102, 145, 18);
+    background: linear-gradient( rgb(84, 180, 84), rgb(187, 118, 58));
 }
 .project-img{
     display: flex;
@@ -149,7 +155,7 @@ button:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    background-color: rgb(16, 204, 211);
+    background:linear-gradient( rgba(77, 157, 160, 0.918), rgba(3, 54, 54, 0.507));
 }
 .education h2{
     text-align: center;
@@ -162,7 +168,7 @@ button:hover{
 }
 .edu{
     font-size: 30px;
-    color: wheat;
+    color: rgb(77, 77, 151);
     padding: 20px 0 0 0;
     height: 13vh;
 }
@@ -220,7 +226,7 @@ button:hover{
     border: 1px solid green;
 }
 .footer{
-    background-color: rgb(105, 105, 179);
+    background:linear-gradient(rgb(105, 105, 179), rgb(19, 19, 65));
     height: 80vh;
 }
 .contact{
@@ -244,7 +250,7 @@ button:hover{
     justify-content: center;
 }
 .phone img{
-    height: 8vh;
+    height: 6vh;
 }
 .phone a{
     font-size: 20px;
@@ -261,11 +267,11 @@ button:hover{
     justify-content: center;
 }
 .email img{
-    height: 8vh; 
+    height: 6vh; 
 }
 .email a{
     padding: 10px 0 0 5px;
-    font-size: 18px;
+    font-size: 20px;
     color: wheat;
 }
 .email img:hover{
@@ -273,7 +279,7 @@ button:hover{
     color: green;
 }
 .bar{
-    height: 30vh;
+    height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -314,7 +320,7 @@ button:hover{
     }
     button{
         width: 30vw;
-        height: 7vh;
+        height: 7.5vh;
         font-size: 22px;
     }
     .bg{
@@ -528,7 +534,7 @@ button:hover{
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        height: 20vh;
+        height: 15vh;
     }
     .social{
       font-size: 30px;

@@ -7,7 +7,7 @@ body{
     font-family: sans-serif;
 }
 .start{
-    height: 37vh;
+    height: 40vh;
     /* background-color: rgb(32, 28, 28); */
     background: linear-gradient(30deg, rgb(32, 28, 28), rgb(146, 141, 141));
     display: flex;
@@ -21,6 +21,13 @@ body{
 }
 .name{
     color: linear-gradient(30deg, rgb(46, 46, 122), rgb(33, 77, 78));
+}
+.start h4{
+    text-align: center;
+    font-size: 20px;
+    height: 5vh;
+    padding: 15px 0;
+    color: rgb(9, 152, 209);
 }
 form{
     text-align: center;
@@ -334,6 +341,9 @@ button:hover{
         height: 7.5vh;
         font-size: 22px;
     }
+    .start h4{
+        font-size: 22px;
+    }
     .bg{
         background-position:center;
         background-size: 250vh;
@@ -458,6 +468,9 @@ button:hover{
     }
     .start h1{
         font-size: 38px;
+    }
+    .start h4{
+        font-size: 25px;
     }
     .bg{
         background-size: 270vh;

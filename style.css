@@ -35,6 +35,7 @@ button{
     color: white;
     border-radius: 1rem;
     border: none;
+    cursor: pointer;
 }
 button:hover{
     background-color: blue;
@@ -47,8 +48,8 @@ button:hover{
     color: blue;
 } 
 .bg{
-    background-image:  url(./img/Dell-G5-2020-main.jpg) ,linear-gradient(#cf8a8a77, rgb(122, 104, 68));
-    background-repeat: no-repeat;
+    background:  url(./img/bc.jfif) no-repeat fixed 50% , linear-gradient(30deg, rgba(172, 164, 164, 0.897), rgb(190, 178, 156));
+    /* background-repeat: no-repeat; */
     height: 90vh;
     background-size: cover;
     max-height: 90%;
@@ -60,7 +61,7 @@ button:hover{
     justify-content: space-evenly;  
 }
 .about h2{
-    color:rgb(139, 69, 19);
+    color:rgb(80, 46, 22);
     text-align: center;
     font-size: 27px;
 }
@@ -68,7 +69,7 @@ button:hover{
     font-size: 17px;
     width: 90%;
     align-self: center;
-    color: wheat;
+    color: rgba(58, 221, 221, 0.952);
 }
 .skills{
     height: 43vh;
@@ -89,46 +90,52 @@ button:hover{
     height: 40vw;
 }
 .skill1{
-    background-color: brown;
-    color: wheat;
+    background-color:black;
+    color: rgb(163, 156, 142);
     width: 40%;
     align-self: center;
     height: 30px;
     font-size: 24px;
     border-radius: 0.5rem;
+    transition: height,  2s;
 }
 .skill1:hover{
     background-color: rgb(189, 107, 189);
     color: rgb(151, 45, 45);
+    height: 32px;
     font-weight: bold;
 }
 .skill2{
-    background-color:brown;
-    color: wheat;
+    background-color:black;
+    color:rgb(163, 156, 142) ;
     width: 40%;
     align-self: center;
     height: 30px;
     font-size: 24px;
     border-radius: 0.5rem;
+    transition: height,  2s;
 }
 .skill2:hover{
     background-color: cyan;
     color: rgb(52, 52, 146);
     font-weight: bold;
+    height: 32px;
 }
 .skill3{
-    background-color: brown;
-    color: wheat;
+    background-color:black;
+    color:rgb(163, 156, 142);
     width: 40%;
     align-self: center;
     height: 30px;
     font-size: 24px;
     border-radius: 0.5rem;
+    transition: height,  2s;
 }
 .skill3:hover{
     background-color: rgba(250, 12, 12, 0.925);
     color: rgba(241, 241, 3, 0.925);
     font-weight: bold;
+    height: 32px;
 }
 .project img{
     height: 30vh;
@@ -179,11 +186,13 @@ button:hover{
     border: 1px solid blue;
     padding: 0 0 0 15px;
     border-radius: 0.5rem;
+    transition: height 2s linear 1s;
 }
 .batch:hover{
     color: white;
     background-color: blue;
     font-weight: bold;
+    height: 20vh;
 }
 .twelth{
     display: flex;
@@ -198,12 +207,13 @@ button:hover{
     border: 1px solid blue;
     padding: 0 0 0 15px;
     border-radius: 0.5rem;
+    transition: height 2s linear 1s;
 }
 .batch1:hover{
-    color: cyan;
-    background-color: rgb(131, 31, 31);
+    color: white;
+    background-color: blue;
     font-weight: bold;
-    border: 1px solid rgb(131, 31, 31);
+    height: 20vh;
 }
 .tenth{
     display: flex;
@@ -218,12 +228,13 @@ button:hover{
     border: 1px solid blue;
     padding: 0 0 0 15px;
     border-radius: 0.5rem;
+    transition: height 2s linear 1s;
 }
 .batch2:hover{
-    color: sandybrown;
-    background-color: green;
+    color: white;
+    background-color: blue;
     font-weight: bold;
-    border: 1px solid green;
+    height: 19vh;
 }
 .footer{
     background:linear-gradient(rgb(105, 105, 179), rgb(19, 19, 65));
@@ -324,8 +335,8 @@ button:hover{
         font-size: 22px;
     }
     .bg{
-        background-position:left;
-        background-size: 180vh;
+        background-position:center;
+        background-size: 250vh;
     }
     .about h2{
         font-size: 30px;
@@ -404,6 +415,15 @@ button:hover{
 .batch2 p {
     font-size: 18px;
 }
+.batch:hover{
+    height: 22vh;
+}
+.batch1:hover{
+    height: 21vh;
+}
+.batch2:hover{
+    height: 12vh;
+}
 .footer{
     height: 80vh;
 }
@@ -440,8 +460,7 @@ button:hover{
         font-size: 38px;
     }
     .bg{
-        background-position: left;
-        background-size: 260vh;
+        background-size: 270vh;
     }
     .about h2{
         font-size: 39px;
@@ -554,8 +573,7 @@ button:hover{
         border-radius: 1.5rem;
     }
     .bg{
-        background-position: left;
-       background-size: 290vh;
+       background-size: 280vh;
     }
     .about h2{
         font-size: 39px;

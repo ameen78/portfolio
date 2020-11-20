@@ -1,0 +1,616 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.start{
+    height: 37vh;
+    background-color: rgb(32, 28, 28);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.start h1{
+    color: red;
+    height: 9vh;
+     text-align: center;
+}
+form{
+    text-align: center;
+}
+button{
+    width: 40vw;
+    align-self: center;
+    margin: 20px 0  10px 0;
+    height: 6vh;
+    font-size: 17px;
+    background-color: rgb(37, 106, 109);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+button:hover{
+    background-color: blue;
+    color: cadetblue;
+    box-shadow: -2px 0 10px 10px;
+    font-weight: bold;
+}
+.name h1{
+    font-size: 23px;
+    color: blue;
+} 
+.bg{
+    background: url(./img/Dell-G5-2020-main.jpg) no-repeat;
+    height: 90vh;
+    background-size: cover;
+}
+.about{
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;  
+}
+.about h2{
+    color:saddlebrown;
+    text-align: center;
+    font-size: 27px;
+}
+.about p {
+    font-size: 17px;
+    width: 90%;
+    align-self: center;
+    color: wheat;
+}
+.skills{
+    height: 43vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.skills h3{
+    font-size: 27px;
+    color:yellow;
+}
+.skil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vw;
+}
+.skill1{
+    background-color: brown;
+    color: wheat;
+    width: 40%;
+    align-self: center;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 0.5rem;
+}
+.skill1:hover{
+    background-color: rgb(189, 107, 189);
+    color: rgb(151, 45, 45);
+    font-weight: bold;
+}
+.skill2{
+    background-color:brown;
+    color: wheat;
+    width: 40%;
+    align-self: center;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 0.5rem;
+}
+.skill2:hover{
+    background-color: cyan;
+    color: rgb(52, 52, 146);
+    font-weight: bold;
+}
+.skill3{
+    background-color: brown;
+    color: wheat;
+    width: 40%;
+    align-self: center;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 0.5rem;
+}
+.skill3:hover{
+    background-color: rgba(250, 12, 12, 0.925);
+    color: rgba(241, 241, 3, 0.925);
+    font-weight: bold;
+}
+.project img{
+    height: 30vh;
+}
+.projects{
+    text-align: center;
+    background-color: rgb(102, 145, 18);
+}
+.project-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 170vh;
+}
+.project img{
+    width: 90%;
+}
+.projects h2{
+   padding: 40px 0 0 0 ;
+   font-size: 32px;
+}
+.education{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgb(16, 204, 211);
+}
+.education h2{
+    text-align: center;
+}
+.engg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+}
+.edu{
+    font-size: 30px;
+    color: wheat;
+    padding: 20px 0 0 0;
+    height: 13vh;
+}
+.batch{
+    width: 90%;
+    align-self: center;
+    line-height: 25px;
+    border: 1px solid blue;
+    padding: 0 0 0 15px;
+    border-radius: 0.5rem;
+}
+.batch:hover{
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+}
+.twelth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+}
+.batch1{
+    width: 90%;
+    align-self: center;
+    line-height: 25px;
+    border: 1px solid blue;
+    padding: 0 0 0 15px;
+    border-radius: 0.5rem;
+}
+.batch1:hover{
+    color: cyan;
+    background-color: rgb(131, 31, 31);
+    font-weight: bold;
+    border: 1px solid rgb(131, 31, 31);
+}
+.tenth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 30%;
+}
+.batch2{
+    width: 90%;
+    align-self: center;
+    line-height: 25px;
+    border: 1px solid blue;
+    padding: 0 0 0 15px;
+    border-radius: 0.5rem;
+}
+.batch2:hover{
+    color: sandybrown;
+    background-color: green;
+    font-weight: bold;
+    border: 1px solid green;
+}
+.footer{
+    background-color: rgb(105, 105, 179);
+    height: 80vh;
+}
+.contact{
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact h4{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+.contact h2{
+    font-size: 25px;
+    color: wheat;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+}
+.phone img{
+    height: 8vh;
+}
+.phone a{
+    font-size: 20px;
+    padding: 10px 0 0 5px;
+    color: wheat;
+    font-weight: bold;
+}
+.phone img:hover{
+    background-color: rgb(235, 157, 13);
+    color: green;
+}
+.email{
+    display: flex;
+    justify-content: center;
+}
+.email img{
+    height: 8vh; 
+}
+.email a{
+    padding: 10px 0 0 5px;
+    font-size: 18px;
+    color: wheat;
+}
+.email img:hover{
+    background-color:  rgb(235, 157, 13);
+    color: green;
+}
+.bar{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.social{
+    display: flex;
+    justify-content:space-evenly;
+    height: 20%;
+    align-items: center;
+}
+.social img{
+    height: 6vh;
+}
+.fb:hover{
+  background-color: rgba(228, 152, 10, 0.952);
+}
+.twe:hover{
+    background-color: rgba(228, 152, 10, 0.952);
+}
+.inta:hover{
+    background-color: rgba(228, 152, 10, 0.952);
+}
+.educ{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+.thanks{
+    color: wheat;
+    font-size: 30px;
+}
+@media only screen and (min-width:768px){
+    .start{
+        height: 45vh;
+    }
+    button{
+        width: 30vw;
+        height: 7vh;
+        font-size: 22px;
+    }
+    .bg{
+        background-position:left;
+        background-size: 180vh;
+    }
+    .about h2{
+        font-size: 30px;
+}
+.about p{
+    font-size: 25px;
+}
+.skills h3 {
+     font-size: 27px;
+}
+.skil{
+    height: 20vw;
+}
+.skill1{
+    width: 35vw;
+}
+.skill2{
+    width: 35vw;
+}
+.skill3{
+    width: 35vw;
+}
+.projects h2{
+    font-size: 35px;
+}
+.project img{
+    width: 60%;
+}
+.engg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+.year{
+    width: 90%;
+}
+.batch{
+    height: 20vh;
+    padding: 10px 0 0 10px;
+}
+.batch h3 {
+  font-size:20px ;
+}
+.batch p {
+    font-size: 18px;
+}
+.twelth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+.batch1{
+    height: 20vh;
+    padding: 10px 0 0 10px;
+}
+.batch1 h3{
+    font-size:20px ;
+}
+.batch1 p{
+    font-size: 18px;
+}
+.tenth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 0;
+}
+.batch2 h3 {
+    font-size:20px ;
+}
+.batch2 p {
+    font-size: 18px;
+}
+.footer{
+    height: 80vh;
+}
+.contact h4{
+    font-size: 30px;
+}
+.contact h2{
+    font-size: 30px;
+}
+.phone a{
+    font-size: 25px;
+}
+.email a{
+    font-size: 25px;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+}
+.thanks{
+    font-size: 60px;
+}
+@media only screen and (min-width:1024px){
+    .start{
+        height: 45vh;
+    }
+    button{
+        font-size: 27px;
+        width: 28vw;
+    }
+    .start h1{
+        font-size: 38px;
+    }
+    .bg{
+        background-position: left;
+        background-size: 260vh;
+    }
+    .about h2{
+        font-size: 39px;
+    }
+    .about p{
+        font-size: 29px;
+    }
+    .skills h3{
+        font-size: 35px;
+    }
+    .skill1{
+        height: 7vh;
+        font-size: 30px;
+    }
+    .skill2{
+        height: 7vh;
+        font-size: 30px;
+    }
+    .skill3{
+        height: 7vh;
+        font-size: 30px;
+    }
+    .projects h2{
+        font-size: 39px;
+    }
+    .project-img{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 70vh;
+    }
+    .project img{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .education{
+        height: 110vh;
+    }
+    .edu {
+      font-size: 40px;
+    }
+    .year{
+        font-size: 24px;
+    }
+    .batch{
+        height: 22vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .batch h3{
+    font-size: 22px;
+    }
+    .batch p{
+        font-size: 20px;
+    }
+    .batch1{
+        height: 19vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .batch1 h3{
+        font-size: 22px; 
+    }
+    .batch1 p{
+        font-size: 20px;
+    }
+    .batch2{
+        height: 19vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .batch2 h3{
+        font-size: 22px; 
+    }
+    .batch2 p{
+        font-size: 20px;
+    }
+    .footer{
+        height: 50vh;
+    }
+    .contact{
+        height: 40vh;
+    }
+    .bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 20vh;
+    }
+    .social{
+      font-size: 30px;
+    }
+}
+@media only screen and (min-width:1440px){
+    .start{
+        height: 50vh;
+    }
+    .start h1{
+        font-size: 43px;
+    }
+    button{
+        width: 20vw;
+        height: 7.7vh;
+        font-size: 29px;
+        border-radius: 1.5rem;
+    }
+    .bg{
+        background-position: left;
+       background-size: 290vh;
+    }
+    .about h2{
+        font-size: 39px;
+    }
+    .about p {
+        font-size: 35px;
+    }
+    .skills h3{
+        font-size: 35px;
+    }
+    .skill1{
+        width: 23vw;
+    }
+    .skill2{
+        width: 23vw; 
+    }
+    .skill3{
+        width: 23vw;
+    }
+    .projects h2{
+        font-size: 42px;
+    }
+   .edu{
+       font-size: 40px;
+   }
+   .education{
+       height: 130vh;
+   }
+   .batch{
+       height: 25vh;
+   }
+   .batch h3{
+   font-size: 28px;
+   }
+   .batch p{
+       font-size: 22px;
+   }
+   .batch1{
+    height: 25vh;
+   }
+   .batch1 h3{
+    font-size: 28px;
+   }
+   .batch1 p{
+    font-size: 22px; 
+   }
+   .batch2{
+    height: 25vh;  
+   }
+   .batch2 h3{
+    font-size: 28px;
+   }
+   .batch2 p{
+    font-size: 22px;
+   }
+   .contact h4{
+       font-size: 40px;
+   }
+   .contact h2{
+    font-size: 34px;
+   }
+   .thanks{
+       font-size: 65px;
+   }
+}

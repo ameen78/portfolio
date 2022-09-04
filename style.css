@@ -1,0 +1,689 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+header {
+  height: 40vh;
+  padding: 60px 0 0 0;
+}
+
+/* .image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50rem;
+    position: relative;
+    padding: 50px 0 0 0;
+
+} */
+/* .image img{
+    height: 10vh;
+    width: 20vh;
+    background-size: cover;
+    border: none;
+    border-radius: 4rem;
+    
+} */
+.start {
+  height: 10vh;
+  /* background-color: rgb(32, 28, 28); */
+  /* background: linear-gradient(30deg, rgb(32, 28, 28), rgb(146, 141, 141)); */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.start h1 {
+  /* color: rgba(23, 23, 109, 0.856); */
+  height: 9vh;
+  text-align: center;
+}
+.name {
+  /* color: linear-gradient(30deg, rgb(46, 46, 122), rgb(33, 77, 78)); */
+}
+.start h4 {
+  text-align: center;
+  font-size: 20px;
+  height: 5vh;
+  padding: 15px 0;
+  color: rgb(9, 152, 209);
+}
+form {
+  text-align: center;
+}
+button {
+  width: 44vw;
+  align-self: center;
+  margin: 20px 0 10px 0;
+  height: 6vh;
+  font-size: 17px;
+  background-color: rgb(37, 106, 109);
+  color: white;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  /* background-color: blue; */
+  color: cadetblue;
+  box-shadow: -2px 0 10px 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.name h1 {
+  font-size: 23px;
+  /* color: blue; */
+}
+.bg {
+  background: url(./img/WhatsApp\ Image\ 2022-09-01\ at\ 12.10.09\ AM.jpg)
+      no-repeat fixed 50%,
+    linear-gradient(30deg, rgba(133, 126, 126, 0.897), rgb(203, 189, 162));
+  /* background-repeat: no-repeat; */
+  height: 90vh;
+  background-size: cover;
+  max-height: 90%;
+}
+.about {
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about h2 {
+  /* color:rgb(80, 46, 22); */
+  text-align: center;
+  font-size: 27px;
+}
+.about p {
+  font-size: 17px;
+  width: 90%;
+  align-self: center;
+  /* color: rgba(58, 221, 221, 0.952); */
+}
+.skills {
+  height: 43vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.skills h3 {
+  font-size: 27px;
+  /* color:yellow; */
+}
+.skil {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 40vw;
+}
+.skill {
+  /* background-color:black; */
+  /* color: rgb(163, 156, 142); */
+  width: 40%;
+  align-self: center;
+  height: 50px;
+  font-size: 24px;
+  border-radius: 0.5rem;
+  transition: height, 2s;
+}
+/* .skill1:hover{
+    background-color: rgb(189, 107, 189);
+    color: rgb(151, 45, 45);
+    height: 32px;
+    font-weight: bold; */
+/* } */
+/* .skill2{
+    background-color:black;
+    color:rgb(163, 156, 142) ;
+    width: 40%;
+    align-self: center;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 0.5rem;
+    transition: height,  2s;
+} */
+/* .skill2:hover{
+    background-color: cyan;
+    color: rgb(52, 52, 146);
+    font-weight: bold;
+    height: 32px; */
+/* } */
+/* .skill3{
+    background-color:black;
+    color:rgb(163, 156, 142);
+    width: 40%;
+    align-self: center;
+    height: 30px;
+    font-size: 24px;
+    border-radius: 0.5rem;
+    transition: height,  2s; */
+/* } */
+/* .skill3:hover{
+        background-color: rgba(250, 12, 12, 0.925);
+        color: rgba(241, 241, 3, 0.925);
+        font-weight: bold;
+        height: 32px;
+    } */
+.project img {
+  height: 30vh;
+}
+.projects {
+  text-align: center;
+  /* background: linear-gradient( rgb(84, 180, 84), rgb(187, 118, 58)); */
+}
+.project-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 170vh;
+}
+.project img {
+  width: 90%;
+}
+.projects h2 {
+  padding: 40px 0 0 0;
+  font-size: 32px;
+  color: rgb(77, 77, 151);
+}
+.education {
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  /* background:linear-gradient( rgba(77, 157, 160, 0.918), rgba(3, 54, 54, 0.507)); */
+}
+.education h2 {
+  text-align: center;
+}
+.engg {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30%;
+}
+.edu {
+  font-size: 30px;
+  color: rgb(77, 77, 151);
+  padding: 20px 0 0 0;
+  height: 13vh;
+}
+.batch {
+  width: 90%;
+  align-self: center;
+  line-height: 25px;
+  border: 1px solid blue;
+  padding: 0 0 0 15px;
+  border-radius: 0.5rem;
+  transition: height 2s linear 1s;
+}
+.batch:hover {
+  color: white;
+  font-weight: bold;
+  height: 20vh;
+  cursor: pointer;
+}
+.twelth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30%;
+}
+.batch1 {
+  width: 90%;
+  align-self: center;
+  line-height: 25px;
+  border: 1px solid blue;
+  padding: 0 0 0 15px;
+  border-radius: 0.5rem;
+  transition: height 2s linear 1s;
+}
+.batch1:hover {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  height: 20vh;
+  cursor: pointer;
+}
+.tenth {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 30%;
+}
+.batch2 {
+  width: 90%;
+  align-self: center;
+  line-height: 25px;
+  border: 1px solid blue;
+  padding: 0 0 0 15px;
+  border-radius: 0.5rem;
+  transition: height 2s linear 1s;
+}
+.batch2:hover {
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  height: 19vh;
+  cursor: pointer;
+}
+.footer {
+  /* background:linear-gradient(rgb(105, 105, 179), rgb(19, 19, 65)); */
+  background-color: rgb(0, 0, 0);
+  height: 80vh;
+}
+.contact {
+  height: 55vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+.contact h2 {
+  font-size: 25px;
+  color: wheat;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+}
+.phone img {
+  height: 6vh;
+}
+.phone a {
+  font-size: 20px;
+  padding: 10px 0 0 5px;
+  color: wheat;
+  font-weight: bold;
+}
+.phone img:hover {
+  /* background-color: rgb(235, 157, 13); */
+  color: green;
+}
+.email {
+  display: flex;
+  justify-content: center;
+}
+.email img {
+  height: 6vh;
+}
+.email a {
+  padding: 10px 0 0 5px;
+  font-size: 20px;
+  color: wheat;
+}
+.email img:hover {
+  /* background-color: rgb(235, 157, 13); */
+  color: green;
+}
+.bar {
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  height: 20%;
+  align-items: center;
+}
+.social img {
+  height: 6vh;
+}
+.fb:hover {
+  /* background-color: rgba(228, 152, 10, 0.952); */
+}
+.twe:hover {
+  /* background-color: rgba(228, 152, 10, 0.952); */
+}
+.inta:hover {
+  /* background-color: rgba(228, 152, 10, 0.952); */
+}
+.educ {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+.thanks {
+  color: wheat;
+  font-size: 30px;
+}
+.connection label {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.message {
+  padding: 40px 0;
+}
+@media only screen and (min-width: 768px) {
+  button {
+    width: 20vw;
+    height: 7.5vh;
+    font-size: 22px;
+  }
+  .start h4 {
+    font-size: 22px;
+  }
+  .bg {
+    background-position: center;
+    /* background-size: 200vh; */
+    background-size: contain;
+  }
+  .about h2 {
+    font-size: 30px;
+  }
+  .about p {
+    font-size: 25px;
+  }
+  .skills h3 {
+    font-size: 27px;
+  }
+  .skil {
+    height: 20vw;
+  }
+  .skill1 {
+    width: 35vw;
+  }
+  .skill2 {
+    width: 35vw;
+  }
+  .skill3 {
+    width: 35vw;
+  }
+  .projects h2 {
+    font-size: 35px;
+  }
+  .project img {
+    width: 60%;
+  }
+  .engg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 0;
+  }
+  .year {
+    width: 90%;
+  }
+  .batch {
+    height: 20vh;
+    padding: 10px 0 0 10px;
+  }
+  .batch h3 {
+    font-size: 20px;
+  }
+  .batch p {
+    font-size: 18px;
+  }
+  .twelth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 0;
+  }
+  .batch1 {
+    height: 20vh;
+    padding: 10px 0 0 10px;
+  }
+  .batch1 h3 {
+    font-size: 20px;
+  }
+  .batch1 p {
+    font-size: 18px;
+  }
+  .tenth {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 10px 0 0;
+  }
+  .batch2 h3 {
+    font-size: 20px;
+  }
+  .batch2 p {
+    font-size: 18px;
+  }
+  .batch:hover {
+    height: 22vh;
+  }
+  .batch1:hover {
+    height: 21vh;
+  }
+  .batch2:hover {
+    height: 12vh;
+  }
+  .footer {
+    height: 80vh;
+  }
+  .contact h4 {
+    font-size: 30px;
+  }
+  .contact h2 {
+    font-size: 30px;
+  }
+  .phone a {
+    font-size: 25px;
+  }
+  .email a {
+    font-size: 25px;
+  }
+  .social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .thanks {
+    font-size: 60px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .start {
+    height: 15vh;
+  }
+  button {
+    font-size: 27px;
+    width: 28vw;
+  }
+  .start h1 {
+    font-size: 38px;
+  }
+  .start h4 {
+    font-size: 25px;
+  }
+  .bg {
+    /* background-size: 270vh; */
+  }
+  .about h2 {
+    font-size: 39px;
+  }
+  .about p {
+    font-size: 29px;
+  }
+  .skills h3 {
+    font-size: 35px;
+  }
+  .skill1 {
+    height: 7vh;
+    font-size: 30px;
+  }
+  .skill2 {
+    height: 7vh;
+    font-size: 30px;
+  }
+  .skill3 {
+    height: 7vh;
+    font-size: 30px;
+  }
+  .projects h2 {
+    font-size: 39px;
+  }
+  .project-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70vh;
+  }
+  .project img {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .education {
+    height: 110vh;
+  }
+  .edu {
+    font-size: 40px;
+  }
+  .year {
+    font-size: 24px;
+  }
+  .batch {
+    height: 22vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .batch h3 {
+    font-size: 22px;
+  }
+  .batch p {
+    font-size: 20px;
+  }
+  .batch1 {
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .batch1 h3 {
+    font-size: 22px;
+  }
+  .batch1 p {
+    font-size: 20px;
+  }
+  .batch2 {
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .batch2 h3 {
+    font-size: 22px;
+  }
+  .batch2 p {
+    font-size: 20px;
+  }
+  .footer {
+    height: 50vh;
+  }
+  .contact {
+    height: 40vh;
+  }
+  .bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+  }
+  .social {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .start {
+    height: 20vh;
+  }
+  .start h1 {
+    font-size: 43px;
+  }
+  button {
+    width: 20vw;
+    height: 7.7vh;
+    font-size: 29px;
+    border-radius: 1.5rem;
+  }
+  .bg {
+    /* background-size: 280vh; */
+  }
+  .about h2 {
+    font-size: 39px;
+  }
+  .about p {
+    font-size: 35px;
+  }
+  .skills h3 {
+    font-size: 35px;
+  }
+  .skill1 {
+    width: 23vw;
+  }
+  .skill2 {
+    width: 23vw;
+  }
+  .skill3 {
+    width: 23vw;
+  }
+  .projects h2 {
+    font-size: 42px;
+  }
+  .edu {
+    font-size: 40px;
+  }
+  .education {
+    height: 130vh;
+  }
+  .batch {
+    height: 25vh;
+  }
+  .batch h3 {
+    font-size: 28px;
+  }
+  .batch p {
+    font-size: 22px;
+  }
+  .batch1 {
+    height: 25vh;
+  }
+  .batch1 h3 {
+    font-size: 28px;
+  }
+  .batch1 p {
+    font-size: 22px;
+  }
+  .batch2 {
+    height: 25vh;
+  }
+  .batch2 h3 {
+    font-size: 28px;
+  }
+  .batch2 p {
+    font-size: 22px;
+  }
+  .contact h4 {
+    font-size: 40px;
+  }
+  .contact h2 {
+    font-size: 34px;
+  }
+  .thanks {
+    font-size: 65px;
+  }
+}
